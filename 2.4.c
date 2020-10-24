@@ -27,9 +27,10 @@ int main(void){
 	else{
 		parentTask();
 		wait(NULL);
-		printf("Job is done.\n");
 		}
 	}
+	printf("Job is done.\n");
+
 	return EXIT_SUCCESS;
 }
 
